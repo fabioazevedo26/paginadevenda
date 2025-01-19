@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conheça Mais Sobre o Produto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 90%;
+            max-width: 400px;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            color: #666;
+            margin: 10px 0 20px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button-yes {
+            background-color: #4caf50;
+            color: white;
+        }
+
+        .button-yes:hover {
+            background-color: #45a045;
+        }
+
+        .button-no {
+            background-color: #f44336;
+            color: white;
+        }
+
+        .button-no:hover {
+            background-color: #e53935;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Gostaria de conhecer mais sobre este produto?</h1>
+        <p>Descubra todos os benefícios e funcionalidades que ele pode oferecer.</p>
+        <div class="button-container">
+            <button class="button button-yes" onclick="handleResponse('sim')">Sim</button>
+            <button class="button button-no" onclick="handleResponse('nao')">Não</button>
+        </div>
+    </div>
+
+    <script>
+        function handleResponse(response) {
+            if (response === 'sim') {
+                window.location.href = 'https://kiwify.app/velJGLO?afid=UOcqB3Z2'; // Substitua pelo link da página para onde quer redirecionar.
+            } else {
+                alert('Tudo bem! Se precisar, estaremos aqui para ajudar.');
+            }
+        }
+    </script>
+</body>
+</html>
